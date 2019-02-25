@@ -1,0 +1,14 @@
+{
+  "name": "google_mappify",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal webpage",
+  "author": "Bryan Pearson <peabryan95@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
