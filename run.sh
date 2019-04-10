@@ -8,4 +8,4 @@ PORT=8080
 docker stop $CONTAINER_NAME
 docker rm $CONTAINER_NAME
 docker build -t $IMAGE_NAME:$TAG .
-docker run -d -p $PORT:8080 --name $CONTAINER_NAME $IMAGE_NAME:$TAG
+docker run -d -p $PORT:8080 --name $CONTAINER_NAME --restart always $IMAGE_NAME:$TAG
