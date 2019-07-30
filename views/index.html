@@ -4,7 +4,10 @@
 	  <title>Homepage | Bryan Pearson II</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="utf-8">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </head>
   <body>
 	<script>
@@ -23,7 +26,12 @@
 		
 	You can check out some of my current and former research projects, my CV, and contact information through this webpage.</p></div>
 
-	<div>
+	<p><a class="btn btn-secondary" data-toggle="collapse" href="#basicInformation" role="button" aria-expanded="false" aria-controls="basicInformation">
+		Basic Information
+	</a></p>
+
+
+	<div class="collapse in" id="basicInformation"><div class="card card-body bg-light">
 		<h4>Basic Information</h4>
 	<ul>
 	<li>Email: <a href="mailto:bpearson@knights.ucf.edu">bpearson@knights.ucf.edu</a></li>
@@ -33,13 +41,30 @@
 	<li><a href="https://www.linkedin.com/in/bryan-pearson-454296106/" target="blank">LinkedIn</a></li>
 	<li><a href="https://github.com/PBearson/" target="blank">Github</a></li>
 	</ul>
+		</div></div>
 
+	<br/>
+
+	<p><a class="btn btn-secondary" data-toggle="collapse" href="#news" role="button" aria-expanded="false" aria-controls="news">
+		News
+	</a></p>
+
+	<div class="collapse in" id="news"><div class="card card-body bg-light">
 	<h4>News</h4>
 	<ul>
 		<li><b>23 Jul. 2019</b>: Our paper, "Microcontroller Based IoT System Firmware Security: Case Studies", was accepted to IEEE ICII 2019!
 		<li><b>3 Feb. 2019</b>: Our paper, "On Misconception of Hardware and Cost in IoT Security and Privacy", was accepted to IEEE ICC 2019! We will be traveling to Shanghai, China in May to present the work.
 	</ul>
+		</div></div>
 
+	<br/>
+
+
+	<p><a class="btn btn-secondary" data-toggle="collapse" href="#research" role="button" aria-expanded="false" aria-controls="research">
+		Research
+	</a></p>
+
+	<div class="collapse in" id="research"><div class="card card-body bg-light">
 	<h4>Research</h4>
 	<ol>
 		<li>C. Gao, L. Luo, Y. Zhang, B. Pearson, X. Fu. Microcontroller Based IoT System Firmware Security: Case Studies. <em>In proceedings of IEEE International Conference on Industrial Internet (ICII)</em>, Orlando, FL, Nov. 2019.
@@ -47,11 +72,29 @@
 		<li> L. Luo, Y. Zhang, B. Pearson, Z. Ling, H. Yu, and X. Fu. On the Security and Data Integrity of Low-Cost Sensor Networks for Air Quality Monitoring. <em>Sensors (Basel).</em> Dec. 2018.</li>
 		<li>N. Domingo, B. Pearson, and Y. Jin. Exploitations of Wireless Interfaces Via Network Scanning. <em>In proceedings of IEEE International Conference on Computing, Networking and Communications (ICNC)</em>, Santa Clara, CA, 2017.</li>
 	</ol>
-	</div>
+		</div></div>
+	
+	<br/>
+	
+	<p><a class="btn btn-secondary" data-toggle="collapse" href="#greenifier" role="button" aria-expanded="false" aria-controls="greenifier">
+		Greenifier
+	</a></p>
 
-	<br/><br/>
+	<div class=collapse in" id="greenifier"><div class="card card-body bg-light">
+	<h4>Greenifier</h4>
+
+	<p>This project plots ambient particulate matter, temperature, and humidity data from sensors onto a map. Our current deployment of devices are built using the ESP32 microcontroller. We use AWS as a backend.</p>
+	<h5><a href="https://greenifier.net" target="blank">Greenifier</a></h5>
+		</div></div>
+
+	<br/>
+
+	</div>
+			
+	<br/>
+	<div class="container">
 	<h6 id="footnote"><small>Disclaimer: This website is not a publication of any institution or organization. The author of the website is solely responsible for its content.</small></h6>
-</div>
+	</div>
 
 
 
