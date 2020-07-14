@@ -6,8 +6,7 @@ const PORT = 8080;
 const HOST = '0.0.0.0';
 
 const app = express();
-app.use(express.static('views'));
-app.use(express.static('controller'));
+app.use(express.static('content'));
 
 app.get('/', (req, res) =>
 {
