@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: bpearson.net
-Token: 76098c7ca61ae38bb3b50ac2484bdc91024e10a22ea41f9bccc98e89bc1e4a5c
